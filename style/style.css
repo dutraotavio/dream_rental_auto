@@ -34,6 +34,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.carousel-item img {
+    max-height: 700px;
+    object-fit: contain;
+}
+
 #sobre, #produtos {
     background-color: var(--cor-terciaria);
 }
