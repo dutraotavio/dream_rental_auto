@@ -1,0 +1,81 @@
+:root {
+    --cor-primaria: #082032;
+    --cor-secundaria: #FF4C29;
+    --cor-terciaria: #334756;
+    --cor-quaternaria: #2C394B;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    background-color: var(--cor-primaria);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: var(--cor-secundaria);
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: var(--cor-secundaria);
+}
+
+.section-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sobre, #produtos {
+    background-color: var(--cor-terciaria);
+}
+
+#destaque, #contato {
+    background-color: var(--cor-quaternaria);
+}
+
+.first-text-colored {
+    color: var(--cor-primaria);
+}
+
+.second-text-colored {
+    color: var(--cor-secundaria);
+}
+
+.nav-link {
+    color: var(--cor-secundaria);
+}
+
+.nav-produtos .nav-link.active,
+#contato button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.nav-produtos .nav-link:hover {
+    color: var(--cor-primaria);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline
+    ;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
